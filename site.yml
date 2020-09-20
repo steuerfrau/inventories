@@ -1,4 +1,5 @@
 ---
 # file: site.yml
-- import_playbook: webservers.yml
-- import_playbook: dbservers.yml
+- hosts: all
+  roles:
+    - role_bi_packages_minimum
