@@ -1,0 +1,5 @@
+# file: testing
+
+[baseinstall_test]
+# elk baseinstall_type=virtualmachine
+acs-management baseinstall_type=virtualmachine
