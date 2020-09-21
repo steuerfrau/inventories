@@ -2,3 +2,11 @@
 	path = roles/role_bi_packages_minimum
 	url = https://github.com/steuerfrau/role_bi_packages_minimum.git
 	branch = prod
+[submodule "roles/role_bi_packages_max"]
+	path = roles/role_bi_packages_max
+	url = https://github.com/steuerfrau/role_bi_packages_max.git
+	branch = prod
+[submodule "roles/role_bi_packages_net"]
+	path = roles/role_bi_packages_net
+	url = https://github.com/steuerfrau/role_bi_packages_net.git
+	branch = prod
