@@ -1,9 +1,8 @@
-# # file: production
-# 
-# [atlanta_webservers]
-# www-atl-1.example.com
-# www-atl-2.example.com
-# 
+# file: testing
+
+[baseinstall_test]
+# elk
+acs-management
 # [boston_webservers]
 # www-bos-1.example.com
 # www-bos-2.example.com
