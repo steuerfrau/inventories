@@ -14,3 +14,7 @@
 	path = roles/role_bi_sysctl
 	url = https://github.com/steuerfrau/role_bi_sysctl.git
 	branch = prod
+[submodule "inventories"]
+	path = inventories
+	url = https://github.com/steuerfrau/inventories.git
+	branch = testing
