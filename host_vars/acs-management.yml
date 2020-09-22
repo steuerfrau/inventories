@@ -4,3 +4,4 @@ role_bi_repositories_repolist:
     file: "CloudStack-Official"
     baseurl: "http://download.cloudstack.org/centos/$releasever/4.14/"
     gpgcheck: "no"
+role_bi_selinux_selinux_mode: permissive
