@@ -1,7 +1,20 @@
 role_bi_repositories_repolist:
-  - name: CloudStack
-    description: "Official CloudStack Repository."
-    file: "CloudStack-Official"
-    baseurl: "http://download.cloudstack.org/centos/$releasever/4.14/"
-    gpgcheck: "no"
+  # - name: CloudStack-Official
+  #   description: "Official CloudStack Repository."
+  #   file: "CloudStack-Official"
+  #   baseurl: "http://download.cloudstack.org/centos/7/4.14/"
+  #   gpgcheck: "no"
+  #   enabled: "yes"
+  - name: CloudStack-ShapeBlue
+    description: "ShapeBlue CloudStack Repository."
+    file: "CloudStack-ShapeBlue"
+    baseurl: "http://packages.shapeblue.com/cloudstack/upstream/centos7/4.14"
+    gpgcheck: "yes"
+    gpgkey: "http://packages.shapeblue.com/release.asc"
+    enabled: "yes"
 role_bi_selinux_selinux_mode: permissive
+# role_bi_time_chrony_timeservers:
+#   - 0.centos.pool.ntp.org
+#   - 1.centos.pool.ntp.org
+#   - 2.centos.pool.ntp.org
+#   - 3.centos.pool.ntp.org
