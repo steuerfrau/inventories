@@ -18,3 +18,7 @@
 	path = inventories
 	url = https://github.com/steuerfrau/inventories.git
 	branch = testing
+[submodule "roles/role_bi_hostname"]
+	path = roles/role_bi_hostname
+	url = https://github.com/steuerfrau/role_bi_hostname.git
+	branch = prod
