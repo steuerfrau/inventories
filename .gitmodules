@@ -22,3 +22,15 @@
 	path = roles/role_bi_hostname
 	url = https://github.com/steuerfrau/role_bi_hostname.git
 	branch = prod
+[submodule "roles/role_bi_repositories"]
+	path = roles/role_bi_repositories
+	url = https://github.com/steuerfrau/role_bi_repositories.git
+	branch = prod
+[submodule "roles/role_bi_selinux"]
+	path = roles/role_bi_selinux
+	url = https://github.com/steuerfrau/role_bi_selinux.git
+	branch = prod
+[submodule "roles/role_bi_time_chrony"]
+	path = roles/role_bi_time_chrony
+	url = https://github.com/steuerfrau/role_bi_time_chrony.git
+	branch = prod
