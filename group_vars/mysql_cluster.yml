@@ -1,4 +1,7 @@
-role_bi_hostname.default_domain: "hoppetosse.local"
+role_bi_hostname_default_domain: "mauerpark-l105-vm.heinlein-intern.de"
+role_bi_repositories_repolist_debian:
+  repo: 'deb http://download.cloudstack.org/ubuntu trusty 4.14'
+  filename: 'CloudStack-4.14'
 # role_bi_hostname.etc_hosts_entries:
 #   "127.0.0.1": "localhost localhost.localdomain localhost4 localhost4.localdomain4"
 #   "::1": "localhost localhost.localdomain localhost6 localhost6.localdomain6"
