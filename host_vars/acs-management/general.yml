@@ -1,10 +1,20 @@
-role_bi_repositories_repolist:
-  # - name: CloudStack-Official
-  #   description: "Official CloudStack Repository."
-  #   file: "CloudStack-Official"
-  #   baseurl: "http://download.cloudstack.org/centos/7/4.14/"
-  #   gpgcheck: "no"
-  #   enabled: "yes"
+role_bi_repositories_yum_repos:
+  - name: CloudStack-Official
+    description: "Official CloudStack Repository."
+    file: "CloudStack-Official"
+    baseurl: "http://download.cloudstack.org/centos/7/4.14/"
+    gpgsrc: /somelocalpath
+    gpgdest: /whre/to/save
+    gpgcheck: "no"
+    enabled: "yes"
+  - name: test
+    description: "Official CloudStack Repository."
+    file: "CloudStack-Official"
+    baseurl: "http://download.cloudstack.org/centos/7/4.14/"
+    gpgsrc: /someother
+    gpgdest: /whre/to/save2
+    gpgcheck: "no"
+    enabled: "yes"
   - name: CloudStack-ShapeBlue
     description: "ShapeBlue CloudStack Repository."
     file: "CloudStack-ShapeBlue"
