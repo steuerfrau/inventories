@@ -4,6 +4,6 @@
 #   - virtualmachine
 #   - default
 
-[baseinstall_test]
-# elk baseinstall_type=virtualmachine
-acs-management baseinstall_type=virtualmachine
+[mysql_cluster]
+mysql-master baseinstall_type=virtualmachine
+mysql-slave baseinstall_type=virtualmachine

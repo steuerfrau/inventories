@@ -1,7 +1,8 @@
 role_bi_hostname_default_domain: "mauerpark-l105-vm.heinlein-intern.de"
-role_bi_repositories_repolist_debian:
-  repo: 'deb http://download.cloudstack.org/ubuntu trusty 4.14'
-  filename: 'CloudStack-4.14'
+# role_bi_repositories_repolist_debian:
+#   - repo: 'deb https://packages.grafana.com/enterprise/deb stable main'
+#     filename: 'Grafana-Test'
+#     key_url: 'https://packages.grafana.com/gpg.key'
 # role_bi_hostname.etc_hosts_entries:
 #   "127.0.0.1": "localhost localhost.localdomain localhost4 localhost4.localdomain4"
 #   "::1": "localhost localhost.localdomain localhost6 localhost6.localdomain6"
