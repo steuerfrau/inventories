@@ -11,9 +11,9 @@
 # #   - 1.centos.pool.ntp.org
 # #   - 2.centos.pool.ntp.org
 # #   - 3.centos.pool.ntp.org
-# role_app_nfs_exports:
-#   /export/secondary: "*(rw,async,no_root_squash,no_subtree_check)"
-#   /export/primary: "*(rw,async,no_root_squash,no_subtree_check)"
+role_app_nfs_exports:
+  /export/secondary: "*(rw,async,no_root_squash,no_subtree_check)"
+  /export/primary: "*(rw,async,no_root_squash,no_subtree_check)"
 # some_variable_with_a_default: value_from_host_vars
 # role_mod_netbridge_stdliux_routing_bridges:
 #   - name: cloudbr0
@@ -25,3 +25,4 @@ role_mod_libvirt_net_create_networklist:
     netmask: 255.255.255.0
     range_start: 10.10.0.64
     range_end: 10.10.0.254
+role_app_mysql_target_version: "5.7"
